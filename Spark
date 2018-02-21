@@ -1,0 +1,4 @@
+val lines = sc.textFile("file:/home/cloudera/Desktop/dept.txt") // Create an RDD called lines
+lines.count() // Count the number of items in this RDD
+lines.first() // First item in this RDD, i.e. first line of README.md
+
